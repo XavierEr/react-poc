@@ -3,7 +3,7 @@ var path = require('path');
 
 var app = express();
 
-app.set('port', (process.env.PORT || 10000));
+app.set('port', (process.env.PORT || 5001));
 
 app.use(express.static(__dirname + '/dist'));
 app.use(express.static(__dirname + '/public'));
