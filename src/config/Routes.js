@@ -7,7 +7,7 @@ class Routes extends Component {
     render() {
         return (
             <Router history={browserHistory}>
-                <Route path="/FlightDetail" component={FlightDetail} />
+                <Route path="/flightdetail" component={FlightDetail} />
             </Router>
         )
     }

@@ -9,7 +9,7 @@ const config = {
             'react-hot-loader/patch',
             // activate HMR for React
 
-            'webpack-dev-server/client?http://localhost:10000',
+            'webpack-dev-server/client?http://localhost:5001',
             // bundle the client for webpack-dev-server
             // and connect to the provided endpoint
 
@@ -47,7 +47,7 @@ const config = {
 
         historyApiFallback: true,
 
-        port: 10000
+        port: 5001
     },
 
     module: {
